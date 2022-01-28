@@ -1,0 +1,5 @@
+{
+  "PORT": 3000,
+  "jwtSecret": "secret Key",
+  "mongoUri": "mongodb+srv://React-NodeJS-project:React-NodeJS-project@react-nodejs-project.stgvh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}

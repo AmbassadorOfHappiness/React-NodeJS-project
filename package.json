@@ -1,0 +1,34 @@
+{
+  "name": "react-nodejs-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmbassadorOfHappiness/React-NodeJS-project.git"
+  },
+  "author": "Dmitrij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmbassadorOfHappiness/React-NodeJS-project/issues"
+  },
+  "homepage": "https://github.com/AmbassadorOfHappiness/React-NodeJS-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
